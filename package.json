@@ -11,6 +11,7 @@
     "gulp": "^3.8.11",
     "gulp-ruby-sass": "^1.0.0-alpha.3",
     "gulp-filter": "^2.0.1",
+    "gulp-pleeease": "^1.1.0",
     "browser-sync": "^2.0.1",
     "coffee-script": "^1.9.0"
   }
