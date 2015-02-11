@@ -8,6 +8,8 @@ gulp.task 'browser-sync', ->
   browserSync
     server: 
       baseDir: "public"
+    ghostMode:
+      location: true
 
 gulp.task 'sass', ->
   sassOptions = 
