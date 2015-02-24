@@ -4,17 +4,18 @@ filter      = require 'gulp-filter'
 pleeease    = require 'gulp-pleeease'
 browserSync = require 'browser-sync'
 config      = require '../config'
+paths       = config.path
 
 gulp.task 'sass', ->
-  sassOptions = 
+  sassOptions =
     style      : 'nested'
     sourcemap  : true
-  sass "#{config.path.src.sass}", sassOptions
+  sass "#{paths.src.sass}", sassOptions
     .pipe pleeease(
       autoprefixer:
         browsers: ['last 4 versions']
       minifier: false
     )
-    .pipe gulp.dest( "#{config.path.dest.sass}" ) 
+    .pipe gulp.dest( "#{paths.dest.sass}" )
     .pipe filter('**/*.css')
     .pipe browserSync.reload({stream:true})

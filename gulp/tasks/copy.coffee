@@ -1,9 +1,10 @@
 gulp        = require 'gulp'
 browserSync = require 'browser-sync'
 config      = require '../config'
+paths        = config.path
 
 gulp.task 'copy', ->
   gulp
-    .src [ "#{config.path.src.html}", "#{config.path.src.img}" ], { base: "#{config.path.src.dir}" }
-    .pipe gulp.dest( "#{config.path.dest.dir}" )
+    .src [ "#{paths.src.html}", "#{paths.src.img}" ], { base: "#{paths.src.dir}" }
+    .pipe gulp.dest( "#{paths.dest.dir}" )
     .pipe browserSync.reload({stream:true})

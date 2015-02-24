@@ -1,10 +1,11 @@
 gulp   = require 'gulp'
 config = require '../config'
+paths  = config.path
 
 gulp.task 'watch', ->
-  gulp.watch ["#{config.path.watch.sass}", "#{config.path.watch.scss}"], ['sass']
+  gulp.watch ["#{paths.watch.sass}", "#{paths.watch.scss}"], ['sass']
   gulp.watch [
-    "#{config.path.watch.html}"
-    "#{config.path.watch.png}", 
-    "#{config.path.watch.gif}"
+    "#{paths.watch.html}"
+    "#{paths.watch.png}",
+    "#{paths.watch.gif}"
   ], ['copy']
