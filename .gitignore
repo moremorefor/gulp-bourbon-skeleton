@@ -4,8 +4,8 @@
 node_modules
 npm-debug.log
 
-bourbon/
-neat/
-base/
+**/plugins/bourbon/
+**/plugins/neat/
+**/plugins/base/
 
 public/
