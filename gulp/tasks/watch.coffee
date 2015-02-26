@@ -7,5 +7,6 @@ gulp.task 'watch', ->
   gulp.watch [
     "#{paths.watch.html}"
     "#{paths.watch.png}",
+    "#{paths.watch.jpg}",
     "#{paths.watch.gif}"
   ], ['copy']

@@ -13,11 +13,12 @@ path =
     html: destDir
     img : destDir + '/img'
   watch:
-    sass: '**/*.sass'
-    scss: '**/*.scss'
-    html: '**/*.html'
-    png:  '**/*.png'
-    gif:  '**/*.gif'
+    sass: srcDir + '/**/*.sass'
+    scss: srcDir + '/**/*.scss'
+    html: srcDir + '/**/*.html'
+    png:  srcDir + '/**/*.png'
+    jpg:  srcDir + '/**/*.jpg'
+    gif:  srcDir + '/**/*.gif'
 
 module.exports =
   path: path
