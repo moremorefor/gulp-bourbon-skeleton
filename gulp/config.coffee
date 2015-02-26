@@ -11,7 +11,7 @@ path =
     dir : destDir
     sass: destDir + '/css'
     html: destDir
-    img : destDir
+    img : destDir + '/img'
   watch:
     sass: '**/*.sass'
     scss: '**/*.scss'
