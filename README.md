@@ -11,10 +11,7 @@ $ gem install bitters
 
 #### Install Borbon, Neat, Bitters
 ```
-$ cd src/css/plugins
-$ bourbon install
-$ neat install
-$ bitters install
+$ gulp install
 ```
 
 #### Build & Run
