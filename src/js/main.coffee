@@ -1,2 +1,4 @@
 do ->
-  console.log("ok!")
+  foo = require './foo.coffee'
+  foo()
+  console.log "ok!"

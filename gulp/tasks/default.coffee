@@ -4,7 +4,7 @@ runSequence = require 'run-sequence'
 
 gulp.task 'default', ['del'], ->
   runSequence(
-    ['sass', 'coffee', 'copy'],
+    ['sass', 'browserify', 'copy'],
     'browser-sync',
     'watch'
   )
