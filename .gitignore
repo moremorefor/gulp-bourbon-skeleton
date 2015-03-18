@@ -4,6 +4,10 @@
 node_modules
 npm-debug.log
 
+.bundle
+vendor
+Gemfile.lock
+
 **/plugin/bourbon/
 **/plugin/neat/
 **/plugin/base/
