@@ -3,7 +3,7 @@
 ## Getting Started
 #### Install
 ```
-$ bundle install
+$ bundle install --path vendor/bundle
 $ npm install
 $ gulp install
 ```

@@ -10,6 +10,7 @@ gulp.task 'sass', ->
   sassOptions =
     style      : 'nested'
     sourcemap  : true
+    bundleExec : true
   sass "#{paths.src.sass}", sassOptions
     .pipe pleeease(
       autoprefixer:
