@@ -5,10 +5,10 @@
 ```
 $ bundle install --path vendor/bundle
 $ npm install
-$ gulp install
+$ npm run install
 ```
 
 #### Build & Run
 ```
-$ gulp
+$ npm start
 ```
