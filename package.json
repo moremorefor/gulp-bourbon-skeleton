@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start"   : "gulp",
-    "install" : "gulp install",
-    "test"    : "echo \"Error: no test specified\" && exit 1"
+    "start"  : "gulp",
+    "install": "gulp install",
+    "test"   : "gulp test"
   },
   "author": "moremorefor",
   "license": "MIT",
@@ -17,13 +17,16 @@
     "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-coffee": "^2.3.1",
+    "gulp-espower": "^0.10.1",
     "gulp-filter": "^2.0.1",
     "gulp-imagemin": "^2.2.1",
+    "gulp-mocha": "^2.0.1",
     "gulp-notify": "^2.2.0",
     "gulp-pleeease": "^1.1.0",
     "gulp-ruby-sass": "^1.0.0-alpha.3",
     "gulp-shell": "^0.3.0",
     "licensify": "^1.0.0",
+    "power-assert": "^0.10.2",
     "require-dir": "^0.1.0",
     "run-sequence": "^1.0.2",
     "vinyl-source-stream": "^1.0.0"

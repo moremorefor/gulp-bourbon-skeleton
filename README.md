@@ -12,3 +12,8 @@ $ npm run install
 ```
 $ npm start
 ```
+
+#### Test
+```
+$ npm test
+```

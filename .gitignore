@@ -8,6 +8,8 @@ npm-debug.log
 vendor
 Gemfile.lock
 
+powered_test
+
 **/plugin/bourbon/
 **/plugin/neat/
 **/plugin/base/
