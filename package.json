@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start"  : "gulp",
+    "start": "gulp",
     "install": "gulp install",
-    "test"   : "gulp test"
+    "test_once": "gulp test_once",
+    "test": "testem"
   },
   "author": "moremorefor",
   "license": "MIT",
@@ -29,6 +30,7 @@
     "power-assert": "^0.10.2",
     "require-dir": "^0.1.0",
     "run-sequence": "^1.0.2",
+    "testem": "^0.8.0-0",
     "vinyl-source-stream": "^1.0.0"
   }
 }

@@ -11,4 +11,3 @@ gulp.task 'watch', ->
     "#{paths.watch.jpg}",
     "#{paths.watch.gif}"
   ], ['copy']
-  gulp.watch ["#{paths.test.watch}"], ['test']

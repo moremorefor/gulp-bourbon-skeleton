@@ -30,7 +30,6 @@ path =
   test:
     src    : srcTestDir + '/**/*.coffee'
     dest   : destTestDir
-    watch  : srcTestDir + '/**/*.coffee'
     run    : destTestDir + '/**/*.js'
 
 module.exports =

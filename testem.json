@@ -1,0 +1,30 @@
+{
+  "framework": "mocha",
+  "before_tests": "gulp test_create",
+  "src_files": [
+    "./test/**/*.coffee"
+  ],
+  "on_exit": "rm -rf ./powered_test/",
+  "serve_files": [
+    "./node_modules/power-assert/build/power-assert.js",
+    "./powered_test/browser/**/*.js"
+  ],
+  "launchers": {
+    "Mocha": {
+      "command": "gulp test_once"
+    },
+    "Chrome": {
+      "command": "mocha powered_test/**/*.js -R tap",
+      "protocol": "tap"
+    },
+    "Firefox": {
+      "command": "mocha powered_test/**/*.js -R tap",
+      "protocol": "tap"
+    }
+  },
+  "launch_in_dev": [
+    "Mocha",
+    "Chrome",
+    "Firefox"
+  ]
+}
